@@ -15,6 +15,7 @@
         <module>singleton-pattern</module>
         <module>simple-factory-pattern</module>
         <module>factory-method-pattern</module>
+        <module>observer-pattern</module>
     </modules>
 
     <properties>
