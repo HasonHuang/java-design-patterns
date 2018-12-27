@@ -16,6 +16,7 @@
         <module>simple-factory-pattern</module>
         <module>factory-method-pattern</module>
         <module>observer-pattern</module>
+        <module>strategy-pattern</module>
     </modules>
 
     <properties>
