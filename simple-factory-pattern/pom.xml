@@ -10,7 +10,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>singleton-pattern</artifactId>
+    <artifactId>simple-factory-pattern</artifactId>
 
     <dependencies>
         <dependency>
