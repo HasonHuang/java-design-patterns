@@ -8,7 +8,7 @@ import com.hason.patterns.abstractfactory.product.HairProp;
 import org.junit.Test;
 
 /**
- * 游戏客户端
+ * 抽象工厂 Unit Test
  *
  * @author Huanghs
  * @since 2.0
