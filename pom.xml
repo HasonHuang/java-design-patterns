@@ -18,9 +18,11 @@
         <module>observer-pattern</module>
         <module>strategy-pattern</module>
         <module>command-pattern</module>
+        <module>adapter-pattern</module>
     </modules>
 
     <properties>
+        <guava.cersion>27.0.1-jre</guava.cersion>
         <lombok.version>1.18.4</lombok.version>
         <junit.version>4.12</junit.version>
         <assertj.version>3.11.1</assertj.version>
@@ -32,6 +34,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.cersion}</version>
+            </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
