@@ -19,7 +19,7 @@
 - 桥接模式
 - 组合模式
 - [装饰者模式（Decorator Pattern）](./decorator-pattern)
-- 外观模式
+- [外观模式（Facade Pattern）](./facade-pattern)
 - 享元模式
 - 代理模式
 
