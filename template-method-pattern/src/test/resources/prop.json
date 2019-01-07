@@ -1,0 +1,13 @@
+{
+  "total": 10,
+  "props": [{
+    "knife": {
+      "id": 1,
+      "name": "knife"
+    },
+    "gun": {
+      "id": 2,
+      "name": "AK47"
+    }
+  }]
+}

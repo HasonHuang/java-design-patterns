@@ -20,11 +20,13 @@
         <module>command-pattern</module>
         <module>adapter-pattern</module>
         <module>facade-pattern</module>
+        <module>template-method-pattern</module>
     </modules>
 
     <properties>
         <guava.cersion>27.0.1-jre</guava.cersion>
         <lombok.version>1.18.4</lombok.version>
+        <jackson.version>2.9.8</jackson.version>
         <junit.version>4.12</junit.version>
         <assertj.version>3.11.1</assertj.version>
 
@@ -45,6 +47,11 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
                 <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
 
             <!-- Test -->
