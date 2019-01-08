@@ -34,5 +34,5 @@
 - [观察者模式（Observer Pattern）](./observer-pattern)
 - 状态模式
 - [策略模式（Strategy Pattern）](./strategy-pattern)
-- 模板方法模式
+- [模板方法模式（Template Method Pattern）](./template-method-pattern)
 - 访问者模式
