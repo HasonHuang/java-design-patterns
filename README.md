@@ -17,7 +17,7 @@
 
 - [适配器模式（Adapter Pattern）](./adapter-pattern)
 - 桥接模式
-- 组合模式
+- [组合模式（Composite Pattern）](./composite-pattern)
 - [装饰者模式（Decorator Pattern）](./decorator-pattern)
 - [外观模式（Facade Pattern）](./facade-pattern)
 - 享元模式
