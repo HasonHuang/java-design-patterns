@@ -7,8 +7,6 @@ import com.hason.patterns.proxy.jdk.ProxyLoginInvocationHandler;
 import com.hason.patterns.proxy.jdk.ProxyOwnerInvocationHandler;
 import org.junit.Test;
 
-import java.lang.reflect.InvocationHandler;
-
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
 
@@ -26,6 +24,7 @@ public class ProxyTest {
     public void staticProxy() {
         Prop ak47 = new Ak47Prop();
         User user = new User("hason");
+        UserLoginTable.logout(user);
 
         // --------------- 测试登录代理 -------------------- //
         final Prop ak47Proxy = new ProxyLoginProp(ak47);
@@ -57,6 +56,7 @@ public class ProxyTest {
     public void dynamicProxy() {
         Prop ak47 = new Ak47Prop();
         User user = new User("hason");
+        UserLoginTable.logout(user);
 
         // --------------- 测试登录代理 -------------------- //
         Prop loginProxy = new ProxyLoginInvocationHandler(ak47).newProxy();
