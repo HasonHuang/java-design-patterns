@@ -6,7 +6,7 @@
 
     <parent>
         <artifactId>java-design-patterns</artifactId>
-        <groupId>com.hason</groupId>
+        <groupId>com.hason.patterns</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
