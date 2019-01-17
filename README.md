@@ -21,14 +21,14 @@
 - [装饰者模式（Decorator Pattern）](./decorator-pattern)
 - [外观模式（Facade Pattern）](./facade-pattern)
 - 享元模式
-- 代理模式
+- [代理模式（Proxy Pattern）](./proxy-pattern)
 
 ## 行为型模式
 
 - 职责链模式
 - [命令模式（Command Pattern）](./command-pattern)
 - 解释器模式
-- 迭代器模式
+- [迭代器模式（Iterator Pattern）](./iterator-pattern)
 - 中介者模式
 - 备忘录模式
 - [观察者模式（Observer Pattern）](./observer-pattern)
