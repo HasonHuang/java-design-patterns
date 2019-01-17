@@ -21,6 +21,7 @@ public class ProxyTest {
     public void staticProxy() {
         Prop ak47 = new Ak47Prop();
         User user = new User("hason");
+        UserLoginTable.logout(user);
 
         // --------------- 测试登录代理 -------------------- //
         final Prop ak47Proxy = new ProxyLoginProp(ak47);
@@ -52,6 +53,7 @@ public class ProxyTest {
     public void dynamicProxy() {
         Prop ak47 = new Ak47Prop();
         User user = new User("hason");
+        UserLoginTable.logout(user);
 
         // --------------- 测试登录代理 -------------------- //
         Prop loginProxy = new ProxyLoginInvocationHandler(ak47).newProxy();
