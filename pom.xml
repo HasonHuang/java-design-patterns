@@ -25,12 +25,15 @@
         <module>composite-pattern</module>
         <module>state-pattern</module>
         <module>proxy-pattern</module>
+        <module>prototype-pattern</module>
     </modules>
 
     <properties>
         <guava.cersion>27.0.1-jre</guava.cersion>
         <lombok.version>1.18.4</lombok.version>
         <jackson.version>2.9.8</jackson.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <logback.version>1.2.3</logback.version>
         <junit.version>4.12</junit.version>
         <assertj.version>3.11.1</assertj.version>
 
@@ -56,6 +59,16 @@
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
                 <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
             </dependency>
 
             <!-- Test -->

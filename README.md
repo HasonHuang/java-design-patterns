@@ -10,7 +10,7 @@
 - [工厂方法模式（Factory Method Pattern）](./factory-method-pattern)
 - [抽象工厂模式（Abstract Factory Pattern）](./abstract-factory-pattern)
 - [单例模式（Singleton Pattern）](./singleton-pattern)
-- 原型模式
+- [原型模式](./prototype-pattern)
 - 建造者模式
 
 ## 结构型模式
