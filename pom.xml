@@ -26,6 +26,7 @@
         <module>state-pattern</module>
         <module>proxy-pattern</module>
         <module>prototype-pattern</module>
+        <module>builder-pattern</module>
     </modules>
 
     <properties>
