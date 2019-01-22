@@ -1,6 +1,3 @@
-/*
- * Copyright 2017 - 2018 探物科技 All Rights Reserved
- */
 package com.hason.patterns.proxy;
 
 import lombok.AllArgsConstructor;
@@ -10,7 +7,7 @@ import lombok.Data;
  * 游戏用户
  *
  * @author Huanghs
- * @since 1.0
+ * @since 2.0
  * @date 2019/1/17
  */
 @Data

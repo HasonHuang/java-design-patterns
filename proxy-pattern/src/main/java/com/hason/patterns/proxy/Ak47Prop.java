@@ -1,16 +1,10 @@
-/*
- * Copyright 2017 - 2018 探物科技 All Rights Reserved
- */
 package com.hason.patterns.proxy;
-
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * 枪支道具（具体主题）
  *
  * @author Huanghs
- * @since 1.0
+ * @since 2.0
  * @date 2019/1/17
  */
 public class Ak47Prop implements Prop {

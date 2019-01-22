@@ -1,6 +1,3 @@
-/*
- * Copyright 2017 - 2018 探物科技 All Rights Reserved
- */
 package com.hason.patterns.proxy;
 
 import com.hason.patterns.proxy.jdk.ProxyLoginInvocationHandler;
@@ -14,7 +11,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
  * 代理模式 Unit Test
  *
  * @author Huanghs
- * @since 1.0
+ * @since 2.0
  * @date 2019/1/17
  */
 public class ProxyTest {

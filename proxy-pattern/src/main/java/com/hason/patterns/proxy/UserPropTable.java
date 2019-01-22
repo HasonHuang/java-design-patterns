@@ -1,6 +1,3 @@
-/*
- * Copyright 2017 - 2018 探物科技 All Rights Reserved
- */
 package com.hason.patterns.proxy;
 
 import java.util.HashMap;
@@ -12,7 +9,7 @@ import java.util.Set;
  * 用户购买道具的记录表
  *
  * @author Huanghs
- * @since 1.0
+ * @since 2.0
  * @date 2019/1/17
  */
 public class UserPropTable {

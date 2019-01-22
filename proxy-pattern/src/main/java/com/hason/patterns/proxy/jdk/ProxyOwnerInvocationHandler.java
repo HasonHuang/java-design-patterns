@@ -1,11 +1,7 @@
-/*
- * Copyright 2017 - 2018 探物科技 All Rights Reserved
- */
 package com.hason.patterns.proxy.jdk;
 
 import com.hason.patterns.proxy.Prop;
 import com.hason.patterns.proxy.User;
-import com.hason.patterns.proxy.UserLoginTable;
 import com.hason.patterns.proxy.UserPropTable;
 
 import java.lang.reflect.Method;
@@ -14,7 +10,7 @@ import java.lang.reflect.Method;
  * （JDK 动态代理）保证用户已经登录且购买，才能操作道具
  *
  * @author Huanghs
- * @since 1.0
+ * @since 2.0
  * @date 2019/1/17
  */
 public class ProxyOwnerInvocationHandler extends ProxyLoginInvocationHandler {
